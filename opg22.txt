@@ -1,0 +1,37 @@
+print 	for printing
+# 	making comment. everything behind # will not be executed by python
++   plus
+-   minus
+/	divide
+* 	multiply
+% 	percent
+< 	less than
+> 	greater than
+<= 	equal or less
+>= 	equal or greater
+_ 	underscore to make spaces in variables because they cant be seperated by space
+%s, %r, %d	 formatters to take variable and replace the %s, %r, %d
+" 	everything inside "xx" is a string/text
+' 	same as " just different look, can be used when string is inside string
+\t 	making a tab in the text like	this
+raw_input 	is used to ask the user for a string, argument
+True/False	is used to make an statement true or false
+import 	import modules from library (from sys import arg)
+prompt 	asks user for input
+open 	open specified file
+close 	Closes the file. Like File->Save.. in your editor.
+read 	Reads the contents of the file. You can assign the result to a variable.
+readline 	Reads just one line of a text file.
+truncate 	Empties the file. Watch out if you care about the file.
+write(stuff) 	Writes stuff to the file.
+exists 	This returns True if a file exists, 
+   based on its name in a string as an argument. 
+   It returns False if not
+functions  
+    They name pieces of code the way variables name strings and numbers.
+    They take arguments the way your scripts take argv.
+    Using #1 (line 16) and #2 (line 17) they
+ let you make your own "mini-scripts" or "tiny commands."
+def (define) 	defines/creates a function. 
+rewind 	a function, kind of acts like a tape. (rewind(current_file))
+return 	gives python something, returns it after processing. (a + b)
